@@ -42,11 +42,11 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 **PROGRAM**
 
-module ex4(J,K,Qt,Y);
-input J,K,Qt;
-output Y;
-assign Y = J & ~Qt | ~K & Qt;
-endmodule 
+1. module ex4(J,K,Qt,Y);
+2. input J,K,Qt;
+3. output Y;
+4. assign Y = J & ~Qt | ~K & Qt;
+5. endmodule 
 
 
 Developed by: RIHAB ZAKKAIR HUSSAIN  RegisterNumber:25015140
